@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homepage</title>
+</head>
+
+
+
+<body>
+    <div class="main">
+        <div class="box">
+            <div class="top-boarder"></div>
+            <img src="static/pexels-pengwhan-1767434.jpg" width="50%" class="ring">
+            <h3>MR.<span class="love">.</span> BOYFRIEND</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Non eos inventore ipsum doloremque neque praesentium deleniti reprehenderit
+                quos eum voluptatem, iusto harum necessitatibus nihil totam dolor in laborum
+                facere a</p>
+            <div class="bottom-boarder"></div>
+            <div class="go">
+                <button class="free"><a href="page2.html">click meee</a></button>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+
+
+<style>
+    body {
+        background-color: azure;
+        font-size: 17px;
+        line-height: 1.5;
+        background-color: #fff;
+        background-image: url(static/pexels-suvan-chowdhury-37305-737568.jpg);
+        background-attachment: scroll;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .box {
+        background: #e91e63;
+        padding: 60px 60px;
+        color: #fff;
+        width: 50%;
+        text-align: center;
+        margin: 25vh auto;
+        position: relative;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+    }
+
+    .box h3 {
+        font-size: 30px;
+        font-weight: 400;
+        text-transform: uppercase;
+        margin: 5px;
+    }
+
+    .top-border :before {
+        content: '';
+        width: 71px;
+        height: 71px;
+        position: absolute;
+        background: url(static/pexels-suzy-hazelwood-1303835.jpg);
+        background-size: cover;
+        top: 20px;
+        left: 20px;
+
+    }
+
+    .top-border :after {
+        content: '';
+        width: 71px;
+        height: 71px;
+        position: absolute;
+        background: url(static/pexels-suzy-hazelwood-1303835.jpg);
+        top: 20px;
+        right: 20px;
+        transform: rotate(90deg);
+    }
+
+    .bottom-border :before {
+        content: '';
+        width: 71px;
+        height: 71px;
+        position: absolute;
+        background: url(static/pexels-suzy-hazelwood-1303835.jpg);
+        background-size: cover;
+        bottom: 20px;
+        left: 20px;
+        transform: rotate(270deg);
+    }
+
+    .bottom-border :after {
+        content: '';
+        width: 71px;
+        height: 71px;
+        position: absolute;
+        background: url(static/pexels-suzy-hazelwood-1303835.jpg);
+        background-size: cover;
+        bottom: 20px;
+        left: 20px;
+        transform: rotate(180deg);
+    }
+
+    .box img {
+        width: 1oopx;
+    }
+
+    .love {
+        animation: pulse is ease infinite;
+        display: inline-block;
+    }
+
+    .free {
+        background-color: #0a2940;
+        color: #fff;
+        border: none;
+        font-size: 15px;
+        border-radius: 10px;
+        /* margin-right: -40px; */
+        padding: 7px;
+
+        /* margin-left: 20px; */
+    }
+
+    .free a {
+        /* list-style: none; */
+        text-decoration: none;
+        color: white;
+    }
+
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+        }
+
+        50% {
+            transform: scale(1.3);
+        }
+
+        100% {
+            transform: scale(1);
+        }
+    }
+</style>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+
+</html>
